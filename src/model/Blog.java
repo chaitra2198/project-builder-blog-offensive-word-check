@@ -2,17 +2,15 @@ package model;
 
 import java.time.LocalDate;
 
+//class blog
 public class Blog {
+	
+	//arguments
 	private String blogTitle;
 	private String blogDescription;
 	private LocalDate date;
 	
-	public Blog(String blogTitle, String blogDescription, LocalDate date) {
-		
-		this.blogTitle = blogTitle;
-		this.blogDescription = blogDescription;
-		this.date = date;
-	}
+	//getter and setter
 	public String getBlogTitle() {
 		return blogTitle;
 	}
@@ -33,4 +31,12 @@ public class Blog {
 	}
 	
 	
+	//constructor
+	
+public Blog(String blogTitle, String blogDescription, LocalDate date) {
+		
+		this.blogTitle = blogTitle;
+		this.blogDescription = blogDescription;
+		this.date = date;
+	}
 }
